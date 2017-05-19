@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5A2713C11E9649FF0003E15D"
+               BuildableName = "Photo_OR_Picture.app"
+               BlueprintName = "Photo_OR_Picture"
+               ReferencedContainer = "container:Photo_OR_Picture.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5A2713DA1E9649FF0003E15D"
+               BuildableName = "Photo_OR_PictureTests.xctest"
+               BlueprintName = "Photo_OR_PictureTests"
+               ReferencedContainer = "container:Photo_OR_Picture.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5A2713E51E9649FF0003E15D"
+               BuildableName = "Photo_OR_PictureUITests.xctest"
+               BlueprintName = "Photo_OR_PictureUITests"
+               ReferencedContainer = "container:Photo_OR_Picture.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5A2713C11E9649FF0003E15D"
+            BuildableName = "Photo_OR_Picture.app"
+            BlueprintName = "Photo_OR_Picture"
+            ReferencedContainer = "container:Photo_OR_Picture.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5A2713C11E9649FF0003E15D"
+            BuildableName = "Photo_OR_Picture.app"
+            BlueprintName = "Photo_OR_Picture"
+            ReferencedContainer = "container:Photo_OR_Picture.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5A2713C11E9649FF0003E15D"
+            BuildableName = "Photo_OR_Picture.app"
+            BlueprintName = "Photo_OR_Picture"
+            ReferencedContainer = "container:Photo_OR_Picture.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
